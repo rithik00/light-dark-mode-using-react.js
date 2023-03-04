@@ -1,0 +1,52 @@
+/* Write your CSS here */
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+.appContainer {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.darkBackground {
+  background-color: #000000;
+  height: 25vh;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+.lightBackground {
+  background-color: #ffffff;
+  height: 25vh;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+.darkHeading {
+  text-align: center;
+  color: #000000;
+  font-size: 28px;
+}
+.lightHeading {
+  text-align: center;
+  color: #ffffff;
+  font-size: 28px;
+}
+.changeButton {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 0.5px solid #000000;
+  padding: 15px;
+  color: #000000;
+}
